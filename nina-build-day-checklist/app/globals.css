@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --teal: #85d0cd;
+  --teal-light: #b0dfdd;
+  --blue: #326ab3;
+  --periwinkle: #6783c2;
+  --yellow: #f4c82c;
+  --blush: #f9d8da;
+  --dark: #1c2b3a;
+  --mid: #4a5568;
+  --white: #fafaf9;
+  --off-white: #f5f4f2;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Gotham', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--dark);
+  background: var(--off-white);
+  -webkit-font-smoothing: antialiased;
+}
